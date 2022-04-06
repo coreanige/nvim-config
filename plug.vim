@@ -48,5 +48,20 @@ Plug 'posva/vim-vue'
 Plug 'sadko4u/lsp-plugins'
 Plug 'johnsoncodehk/volar'
 Plug 'yaegassy/coc-volar-tools', {'do': 'yarn install --frozen-lockfile'}
+" Plug 'hrsh7th/nvim-compe'
+" nvim-cmp
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer' 
+Plug 'hrsh7th/cmp-path'    
+Plug 'hrsh7th/cmp-cmdline' 
+Plug 'hrsh7th/nvim-cmp'
+" vsnip
+Plug 'hrsh7th/cmp-vsnip'   
+Plug 'hrsh7th/vim-vsnip'
+Plug 'rafamadriz/friendly-snippets'
+" lspkind
+Plug 'onsails/lspkind-nvim'
+
+Plug 'posva/vim-vue'
 call plug#end()
 

@@ -28,7 +28,6 @@ set mouse=a
 "let loaded_matchparen = 1
 set shell=zsh
 set backupskip=/tmp/*,/private/tmp/*
-
 " incremental substitution (neovim)
 if has('nvim')
   set inccommand=split
@@ -154,6 +153,3 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
-" let g:LanguageClient_serverCommands = {
-"     \ 'vue': ['vls']
-"     \ }

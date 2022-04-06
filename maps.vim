@@ -59,8 +59,8 @@ nmap <C-w><down> <C-w>-
 
 " Easymotion
 " <Leader>f{char} to move to {char}
-map  <SPACE> <Plug>(easymotion-bd-f)
-nmap <SPACE> <Plug>(easymotion-overwin-f)
+map  <SPACE><SPACE> <Plug>(easymotion-bd-f)
+nmap <SPACE><SPACE> <Plug>(easymotion-overwin-f)
 
 " s{char}{char} to move to {char}{char}
 nmap s <Plug>(easymotion-overwin-f2)
