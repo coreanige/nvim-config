@@ -63,5 +63,9 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'onsails/lspkind-nvim'
 
 Plug 'posva/vim-vue'
+" 打開命令列模式
+Plug 'akinsho/toggleterm.nvim'
+" 
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 

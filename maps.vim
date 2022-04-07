@@ -1,5 +1,4 @@
 " Description: Keymaps
-
 nnoremap <S-C-p> "0p
 " Delete without yank
 nnoremap <leader>d "_d
@@ -75,3 +74,17 @@ nmap <Leader>w <Plug>(easymotion-overwin-w)
 " NerdTree
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+
+" set
+let g:toggleterm_terminal_mapping = '<C-\>'
+" or manually...
+autocmd TermEnter term://*toggleterm#*
+      \ tnoremap <silent><c-\> <Cmd>exe v:count1 . "ToggleTerm"<CR>
+
+" By applying the mappings this way you can pass a count to your
+" mapping to open a specific window.
+" For example: 2<C-t> will open terminal 2
+nnoremap <silent><c-\> <Cmd>exe v:count1 . "ToggleTerm"<CR>
+inoremap <silent><c-\> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
+
