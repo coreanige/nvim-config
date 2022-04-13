@@ -7,7 +7,8 @@ nnoremap x "_x
 " Increment/decrement
 nnoremap + <C-a>
 nnoremap - <C-x>
-
+" Set Paste for global
+nmap <C-p> "+p
 " Select all
 nmap <C-a> gg<S-v>G
 
@@ -76,7 +77,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 
-" set
+" set terminal
 let g:toggleterm_terminal_mapping = '<C-\>'
 " or manually...
 autocmd TermEnter term://*toggleterm#*
@@ -87,4 +88,12 @@ autocmd TermEnter term://*toggleterm#*
 " For example: 2<C-t> will open terminal 2
 nnoremap <silent><c-\> <Cmd>exe v:count1 . "ToggleTerm"<CR>
 inoremap <silent><c-\> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
-
+" Dashboard
+nmap <SPACE>ss :<C-u>SessionSave<CR>
+nmap <SPACE>sl :<C-u>SessionLoad<CR>
+nnoremap <silent> <SPACE>fh :DashboardFindHistory<CR>
+nnoremap <silent> <SPACE>ff :DashboardFindFile<CR>
+nnoremap <silent> <SPACE>tc :DashboardChangeColorscheme<CR>
+nnoremap <silent> <SPACE>fa :DashboardFindWord<CR>
+nnoremap <silent> <SPACE>fb :DashboardJumpMark<CR>
+nnoremap <silent> <SPACE>cn :DashboardNewFile<CR>

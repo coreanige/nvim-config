@@ -151,6 +151,9 @@ endif
 " ---------------------------------------------------------------------
 set exrc
 "}}}
-
+" GlobalSettings "{{{
+" ---------------------------------------------------------------------
+let g:dashboard_default_executive ='telescope'
+"  }}}
 " vim: set foldmethod=marker foldlevel=0:
-
+" set foldmethod=syntax

@@ -67,5 +67,7 @@ Plug 'posva/vim-vue'
 Plug 'akinsho/toggleterm.nvim'
 " 
 Plug 'terryma/vim-multiple-cursors'
-call plug#end()
+"Dashboard
+Plug 'glepnir/dashboard-nvim'
 
+call plug#end()
