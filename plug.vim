@@ -20,6 +20,8 @@ if has("nvim")
   Plug 'hrsh7th/vim-lamp'
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'hrsh7th/cmp-buffer'
+  Plug 'hrsh7th/cmp-path'    
+  Plug 'hrsh7th/cmp-cmdline' 
   Plug 'hrsh7th/nvim-cmp'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
@@ -48,13 +50,6 @@ Plug 'posva/vim-vue'
 Plug 'sadko4u/lsp-plugins'
 Plug 'johnsoncodehk/volar'
 Plug 'yaegassy/coc-volar-tools', {'do': 'yarn install --frozen-lockfile'}
-" Plug 'hrsh7th/nvim-compe'
-" nvim-cmp
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer' 
-Plug 'hrsh7th/cmp-path'    
-Plug 'hrsh7th/cmp-cmdline' 
-Plug 'hrsh7th/nvim-cmp'
 " vsnip
 Plug 'hrsh7th/cmp-vsnip'   
 Plug 'hrsh7th/vim-vsnip'
