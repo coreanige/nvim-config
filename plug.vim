@@ -64,5 +64,5 @@ Plug 'akinsho/toggleterm.nvim'
 Plug 'terryma/vim-multiple-cursors'
 "Dashboard
 Plug 'glepnir/dashboard-nvim'
-
+Plug 'prettier/vim-prettier'
 call plug#end()
