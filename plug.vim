@@ -23,6 +23,10 @@ if has("nvim")
   Plug 'hrsh7th/cmp-path'    
   Plug 'hrsh7th/cmp-cmdline' 
   Plug 'hrsh7th/nvim-cmp'
+  " For vsnip users.
+  Plug 'hrsh7th/cmp-vsnip'
+  Plug 'hrsh7th/vim-vsnip'
+
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'onsails/lspkind-nvim'
@@ -50,14 +54,12 @@ Plug 'posva/vim-vue'
 Plug 'sadko4u/lsp-plugins'
 Plug 'johnsoncodehk/volar'
 Plug 'yaegassy/coc-volar-tools', {'do': 'yarn install --frozen-lockfile'}
-" vsnip
-Plug 'hrsh7th/cmp-vsnip'   
-Plug 'hrsh7th/vim-vsnip'
-Plug 'rafamadriz/friendly-snippets'
+
+" Plug 'rafamadriz/friendly-snippets'
 " lspkind
 Plug 'onsails/lspkind-nvim'
 
-Plug 'posva/vim-vue'
+"Plug 'posva/vim-vue'
 " 打開命令列模式
 Plug 'akinsho/toggleterm.nvim'
 " 

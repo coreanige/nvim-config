@@ -7,6 +7,8 @@ lua << EOF
 EOF
 
 lua << EOF
+
+
 local nvim_lsp = require('lspconfig')
 local protocol = require'vim.lsp.protocol'
 
@@ -100,11 +102,41 @@ nvim_lsp.tsserver.setup {
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   capabilities = capabilities
 }
-nvim_lsp.volar.setup {
-  on_attach = on_attach,
-  capabilities = capabilities
-}
-nvim_lsp.tailwindcss.setup{}
+--nvim_lsp.vuels.setup {
+--  on_attach = on_attach,
+--  capabilities = capabilities,
+--  settings = {
+--    vetur = {
+--      completion = {
+--        autoImport = true,
+--        useScaffoldSnippets = true
+--      },
+--      format = {
+--        defaultFormatter = {
+--          html = "none",
+--          js = "prettier",
+--          ts = "prettier",
+--        }
+--      },
+--      validation = {
+--        template = true,
+--        script = true,
+--        style = true,
+--        templateProps = true,
+--        interpolation = true
+--      },
+--      experimental = {
+--        templateInterpolationService = true
+--      }
+--    }
+--  },
+--}
+
+--nvim_lsp.volar.setup {
+--  on_attach = on_attach,
+--  capabilities = capabilities,
+--}
+--nvim_lsp.tailwindcss.setup{}
 
 nvim_lsp.diagnosticls.setup {
   on_attach = on_attach,

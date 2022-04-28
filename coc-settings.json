@@ -1,3 +1,3 @@
 {
- "coc.preferences.formatOnSaveFiletypes": ["vue", "markdown"],
+  "coc.preferences.formatOnSaveFiletypes": ["vue", "markdown"],
 }
